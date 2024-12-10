@@ -136,6 +136,7 @@
       <bpmn:incoming>Flow_1rsuyly</bpmn:incoming>
       <bpmn:outgoing>Flow_03rude6</bpmn:outgoing>
     </bpmn:subProcess>
+    <bpmn:task id="Activity_0ugfm10" name="Test" />
     <bpmn:textAnnotation id="TextAnnotation_02e4vtb">
       <bpmn:text>Define el proyecto en lineas generales</bpmn:text>
     </bpmn:textAnnotation>
@@ -183,7 +184,11 @@
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
-        <dc:Bounds x="162" y="382" width="36" height="36" />
+        <dc:Bounds x="162" y="250" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0ugfm10_di" bpmnElement="Activity_0ugfm10">
+        <dc:Bounds x="310" y="360" width="100" height="80" />
+        <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_184vlbn_di" bpmnElement="Activity_00db9lj">
         <dc:Bounds x="510" y="228" width="100" height="80" />
@@ -313,12 +318,10 @@
         <di:waypoint x="390" y="185" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_1rsuyly_di" bpmnElement="Flow_1rsuyly">
-        <di:waypoint x="198" y="400" />
-        <di:waypoint x="214" y="400" />
-        <di:waypoint x="214" y="268" />
+        <di:waypoint x="198" y="268" />
         <di:waypoint x="230" y="268" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="155" y="425" width="50" height="27" />
+          <dc:Bounds x="155" y="293" width="50" height="27" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_03rude6_di" bpmnElement="Flow_03rude6">
